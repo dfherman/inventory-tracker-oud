@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(if \\(Test-Path \"D:\\\\voorraad_app\"\\) { Write-Output \"D:\\\\voorraad_app bestaat al\" } else { cmd /c mklink /J \"D:\\\\voorraad_app\" \"D:\\\\Programming projects\\\\voorraad_app\"; Write-Output \"exitcode: $LASTEXITCODE\" })"
+    ]
+  }
+}
